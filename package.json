@@ -1,0 +1,27 @@
+{
+  "name": "states",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexanderl19/states.git"
+  },
+  "author": "Alexander Liu <hey@alexanderliu.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alexanderl19/states/issues"
+  },
+  "homepage": "https://github.com/alexanderl19/states#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^12.1.4",
+    "@commitlint/config-angular": "^12.1.4",
+    "husky": "^6.0.0",
+    "prettier": "2.3.2",
+    "typescript": "^4.3.4"
+  }
+}
