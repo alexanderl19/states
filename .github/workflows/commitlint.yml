@@ -7,5 +7,4 @@ jobs:
         with:
           fetch-depth: 0
       - uses: actions/setup-node@v2
-      - run: npm ci
       - run: npx commitlint --from HEAD~${{ github.event.pull_request.commits }} --to HEAD
